@@ -36,7 +36,7 @@ concurrency:
 jobs:
   dispatch:
     name: Dispatch Private Security Review
-    runs-on: ubuntu-latest
+    runs-on: groundbox-4vcpu
     permissions:
       contents: read
     steps:

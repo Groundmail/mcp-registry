@@ -27,7 +27,7 @@ permissions:
 jobs:
   auto-merge:
     name: Auto-merge pin upgrades
-    runs-on: ubuntu-latest
+    runs-on: groundbox-4vcpu
     # Only run if check_run succeeded and has associated PRs, or if manually triggered
     if: |
       github.event_name == 'workflow_dispatch' ||
