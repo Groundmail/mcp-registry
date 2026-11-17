@@ -20,7 +20,7 @@ concurrency:
 
 jobs:
   update-pins:
-    runs-on: ubuntu-24.04
+    runs-on: groundbox-4vcpu
     steps:
       - name: Create GitHub auth token for mcp-registry-bot from GitHub App
         id: docker-mcp-registry-bot-auth
